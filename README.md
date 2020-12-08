@@ -19,6 +19,9 @@
 ## Axes d'amélioration
 
 ## Auteurs
-Bajamin PRADON - AW
-<br/>Jean TALGORN--THOMAS - AW
-<br/>Salim Bamba - AW
+Benjamin PRADON - AW <br/>
+Jean TALGORN--THOMAS - AW <br/>
+Salim Bamba - AW <br/>
+Abdenour BENSOUNA - AW <br/>
+Nassim AKIF - AW  <br/>
+Sarah Pinto - AW
