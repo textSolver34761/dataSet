@@ -15,11 +15,10 @@
 **Imports natif à python**
 
 **Imports de packages crées pour le projet**
-	`````javaScript 
-    NodeJS
-    import { scaleLinear } from 'd3-scale';
-        
-    ````
+	```javaScript 
+    NodeJS <br>
+    import { scaleLinear } from 'd3-scale'; 
+    ```
 ## Axes d'amélioration
 
 ## Auteurs
