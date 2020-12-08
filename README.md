@@ -5,12 +5,26 @@
 ## Fichiers contenus dans le projet
 <ul>
     <li>Readme.md</li>
+    <li>.gitignore</li>
+    <li>Untitled.ipynb</li>
+    <li>data.json</li>
+    <li>dataset.py</li>
+    <li>info.txt</li>
+    <li>package-lock.json</li>
+    <li>stockx.csv</li>
+    <li>dataset</li>
 </ul>
 
 ## Fonctionnement du programme
 
+Pour executer le programme, l'ouvrir et aller dans le dossier "dataset". <br />
+S'assurer d'avoir installer Nodes ainsi que npm. <br />
+Executer la commande ```bach  npm run dev ``` 
+
 ## Fonctionnement technique du programme
+
 **Technologie utilisé**
+
 
 **Imports natif à python**
 
