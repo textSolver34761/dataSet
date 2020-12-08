@@ -19,7 +19,7 @@ import pandas
 import numpy
 ```
 
-**Imports natif à Java Script **
+**Imports natif à JavaScript **
 
 ```javascript
 import { scaleLinear } from 'd3-scale'; 
