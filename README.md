@@ -15,7 +15,11 @@
 **Imports natif à python**
 
 **Imports de packages crées pour le projet**
-
+	`````javaScript 
+    NodeJS
+    import { scaleLinear } from 'd3-scale';
+        
+    ````
 ## Axes d'amélioration
 
 ## Auteurs
@@ -24,4 +28,4 @@ Jean TALGORN--THOMAS - AW <br/>
 Salim Bamba - AW <br/>
 Abdenour BENSOUNA - AW <br/>
 Nassim AKIF - AW  <br/>
-Sarah Pinto - AW
+Sarah PINTO - AW
