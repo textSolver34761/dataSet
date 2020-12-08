@@ -1,6 +1,6 @@
 <script>
 	import { scaleLinear } from 'd3-scale';
-    export let resurchName from ''
+    export let researchName;
 
 	const points = [
 		{ year: 1990, birthrate: 16.7 },
@@ -82,7 +82,7 @@
 	}
 </style>
 
-<h2>title by year</h2>
+<h2>{researchName} by year</h2>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
 	<svg>

@@ -19,4 +19,4 @@
 
 <Table />
 <br />
-<Stat />
+<Stat researchName />
