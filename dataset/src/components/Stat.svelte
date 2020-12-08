@@ -11,7 +11,7 @@
 		{ year: 2015, birthrate: 12.4 }
 	];
 
-	const xTicks = [1990, 1995, 2000, 2005, 2010, 2015];
+    const yrs = points.map(pts => pts.year);
 	const yTicks = [0, 5, 10, 15, 20];
 	const padding = { top: 20, right: 15, bottom: 20, left: 25 };
 
@@ -23,7 +23,7 @@
 	}
 
 	$: xScale = scaleLinear()
-		.domain([0, xTicks.length])
+		.domain([0, yrs.length])
 		.range([padding.left, width - padding.right]);
 
 	$: yScale = scaleLinear()
@@ -31,7 +31,7 @@
 		.range([height - padding.bottom, padding.top]);
 
 	$: innerWidth = width - (padding.left + padding.right);
-	$: barWidth = innerWidth / xTicks.length;
+	$: barWidth = innerWidth / yrs.length;
 </script>
 
 <style>
