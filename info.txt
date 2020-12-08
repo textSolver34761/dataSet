@@ -1,2 +1,12 @@
 info
 -Données de sortie en json
+
+
+donneées envoyer: 
+tendances reventes
+
+top 5 région / top flop région
+top 5 paires / top flop région
+top 5 tailles / top flop paires
+top marque de chaussure/ flop
+top 5 jour / flop 5 jours
