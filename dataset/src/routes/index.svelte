@@ -1,5 +1,6 @@
 <script>
   import Table from "../components/Table.svelte";
+  import Stat from "../components/Stat.svelte";
 </script>
 
 <style>
@@ -14,6 +15,8 @@
   <title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<!--h1>Great success!</h1-->
 
 <Table />
+<br />
+<Stat researchName />
