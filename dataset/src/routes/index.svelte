@@ -1,4 +1,6 @@
 <script>
+  import Research from "../components/Research.svelte";
+
   import Table from "../components/Table.svelte";
 </script>
 
@@ -16,4 +18,5 @@
 
 <h1>Great success!</h1>
 
+<Research />
 <Table />
