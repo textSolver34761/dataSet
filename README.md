@@ -14,8 +14,12 @@
 
 **Imports natif à python**
 
+```python
+import pandas
+import numpy
+```
 
-**Imports natif à Java Script (front) **
+**Imports natif à Java Script **
 
 ```javascript
 import { scaleLinear } from 'd3-scale'; 
