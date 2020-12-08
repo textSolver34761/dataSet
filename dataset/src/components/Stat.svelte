@@ -1,16 +1,8 @@
 <script>
 	import { scaleLinear } from 'd3-scale';
+    export let resurchName from ''
 
 	const points = [
-        data = ([
-['Year', 'Visitations'],
-['2010', 10],
-['2020', 14],
-['2030', 16],
-['2040', 22],
-['2050', 28]
-]);
-
 		{ year: 1990, birthrate: 16.7 },
 		{ year: 1995, birthrate: 14.6 },
 		{ year: 2000, birthrate: 14.4 },
@@ -90,7 +82,7 @@
 	}
 </style>
 
-<h2>US birthrate by year</h2>
+<h2>title by year</h2>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
 	<svg>
