@@ -19,7 +19,7 @@
 
 Pour executer le programme, l'ouvrir et aller dans le dossier "dataset". <br />
 S'assurer d'avoir installer Nodes ainsi que npm. <br />
-Executer la commande ```bach  npm run dev ``` 
+Executer la commande ```node  npm run dev ``` 
 
 ## Fonctionnement technique du programme
 
