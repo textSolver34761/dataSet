@@ -2,6 +2,8 @@
 
 ## Données analysés
 
+Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br /> Les données se trouvent sous stockx.csv
+
 ## Fichiers contenus dans le projet
 <ul>
     <li>Readme.md</li>
@@ -19,7 +21,7 @@
 
 Pour executer le programme, l'ouvrir et aller dans le dossier "dataset". <br />
 S'assurer d'avoir installer Nodes ainsi que npm. <br />
-Executer la commande ```node  npm run dev ``` 
+Executer la commande ``` npm run dev ``` 
 
 ## Fonctionnement technique du programme
 
