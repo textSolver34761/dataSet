@@ -25,9 +25,6 @@
     },
   ];
 
-  //   function handleClick() {
-  //   filteredList = list.filter(item => item.name.indexOf(as searchTerm) !== -1);
-  // }
 </script>
 
 <style>
@@ -46,10 +43,7 @@
     text-align: center;
   }
 </style>
-
-<input bind:value={searchTerm} placeholder="filtrer" />
-<!-- <button on:click|once={handleClick}> Valider </button> -->
-
+<p> Il y a .... ventes dans le tableau. </p> <br>
 <h1>Tableau</h1>
 <table>
   <thead>
