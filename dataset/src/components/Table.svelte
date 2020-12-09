@@ -2,28 +2,17 @@
   let searchTerm = "";
   let list = [
     {
-      order: "07/12/2020",
-      brand: "Nike",
-      Sneaker: "bof",
-      Name: "Je ne sais pas",
-      Sale: 155,
-      Retail: 7550,
-      Release: "05/11/2020",
-      Shoe: 9,
-      Buyer: "Ben",
-    },
-    {
-      order: "08/12/2020",
-      brand: "Nike",
-      Sneaker: "bof",
-      Name: "Je ne sais pas",
-      Sale: 1550,
-      Retail: 75500,
-      Release: "12/11/2020",
-      Shoe: 12,
-      Buyer: "Sarah",
-    },
-  ];
+      id:"1",
+      order:"2/13/19",
+      brand:"Yeezy",
+      Sneaker:"adidas-Yeezy-Boost-350-V2-Static-Reflective",
+      Sale:"$699",
+      Retail:"$220",
+      Release:"12/26/18",
+      Shoe: "11.0",
+      Buyer:"New Jersey"
+    }
+];
 
 </script>
 
@@ -51,7 +40,6 @@
       <th>Order Date</th>
       <th>Brand</th>
       <th>Sneaker</th>
-      <th>Name</th>
       <th>Sale Price</th>
       <th>Retail Price</th>
       <th>Release Date</th>
@@ -65,7 +53,6 @@
         <td>{data.order}</td>
         <td>{data.brand}</td>
         <td>{data.Sneaker}</td>
-        <td>{data.Name}</td>
         <td>{data.Sale}</td>
         <td>{data.Retail}</td>
         <td>{data.Release}</td>
