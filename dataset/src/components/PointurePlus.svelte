@@ -13,7 +13,7 @@
         { shoe:12.0, sales: 7297 },
         { shoe:13.0, sales: 4602 },
     ];
-    
+
     const Xabsc = points.map(pts => pts.shoe);
     console.log(Xabsc);
     const Yordn = points.map(pts => pts.sales);
@@ -39,7 +39,7 @@
     $: barWidth = innerWidth / Xabsc.length;
     </script>
     
-    <style>
+<style>
     h2 {
         text-align: center;
     }
@@ -85,7 +85,7 @@
         stroke: none;
         opacity: 0.65;
     }
-    </style>
+</style>
     
     <h2> Pointure la plus acheter</h2> <br>
     
