@@ -78,25 +78,28 @@ modele_minJson = datajson(modele_min)
 #Nombre de vente total
 vente_total = len(sale_price)
 
+#Les dix dernières ventes
+dix_dernière_vente = data.tail(10)
+dix_dernière_venteJson = datajson(dix_dernière_vente)
+
 #Ecriture dans un fichier json
-data_json = {}
-with open("data.json", "r") as file:
-        data_json = json.load(file)
-        file.close()
-        with open("data.json", "w") as file:
-            data_json['prixMoyenVente'].append(prixMoyenVente)
-            data_json['prixEleverVente'].append(prixEleverVente)
-            data_json['prixBasVente'].append(prixBasVente)
-            data_json['tailleMoyenne'].append(tailleMoyenne)
-            data_json['tailleEleve'].append(tailleEleve)
-            data_json['tailleBasse'].append(tailleBasse)
-            data_json['taillePlusVenduJson'].append(taillePlusVenduJson)
-            data_json['tailleMoinsVenduJson'].append(tailleMoinsVenduJson)
-            data_json['etatsMaxJson'].append(etats_maxJson)
-            data_json['etatsMinJson'].append(etats_minJson)
-            data_json['marqueMax'].append(marque_max)
-            data_json['marqueMin'].append(marque_min)
-            data_json['modelemaxJson'].append(modele_maxJson)
-            data_json['modeleminJson'].append(modele_minJson)
-            data_json['venteTotal'].append(vente_total)
-            json.dump(data_json, file)
+dictionnaire = {}
+dictionnaire["prixMoyenVente"] = prixMoyenVente
+dictionnaire["prixEleverVente"] = float(prixEleverVente)
+dictionnaire['prixBasVente'] = float(prixBasVente)
+dictionnaire['tailleMoyenne'] = tailleMoyenne
+dictionnaire['tailleEleve'] = tailleEleve
+dictionnaire['tailleBasse'] = tailleBasse
+dictionnaire['taillePlusVenduJson'] = taillePlusVenduJson
+dictionnaire['tailleMoinsVenduJson'] = tailleMoinsVenduJson
+dictionnaire['etatsMaxJson'] = etats_maxJson
+dictionnaire['etatsMinJson'] = etats_minJson
+dictionnaire['marqueMax'] = int(marque_max)
+dictionnaire['marqueMin'] = int(marque_min)
+dictionnaire['modeleMaxJson'] = modele_maxJson
+dictionnaire['modeleMinJson'] = modele_minJson
+dictionnaire['venteTotal'] = vente_total
+dictionnaire['dixDerniereVenteJson'] = dix_dernière_venteJson
+
+with open('data.json', 'w') as fp:
+    json.dump(dictionnaire, fp)
