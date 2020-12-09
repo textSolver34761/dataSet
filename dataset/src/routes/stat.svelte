@@ -3,8 +3,7 @@
   </script>
   
   <style>
-    @media (min-width: 480px) {
-    }
+   
   </style>
 
 <svelte:head>

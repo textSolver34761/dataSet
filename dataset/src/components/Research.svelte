@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { goto } from "@sapper/app";
 
   let search = "";
@@ -53,4 +53,4 @@
 <div class="search">
   <button on:click={redirect}>search</button>
   <input type="text" bind:value={search} placeholder="Recherche..." />
-</div>
+</div> -->

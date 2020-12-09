@@ -142,9 +142,8 @@
 	}
 </style>
 
-<p>Il y a .... ventes dans le tableau.</p>
-<br />
-<h1>Tableau</h1>
+<h1>Les {list.length} dernières ventes </h1>
+<p> sur 100'000 </p>
 <table>
 	<thead>
 		<tr>

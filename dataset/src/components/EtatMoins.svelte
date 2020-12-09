@@ -2,35 +2,39 @@
 import { scaleLinear } from 'd3-scale';
 
 const points = [
-    { year: 1990, birthrate: 16.7 },
-    { year: 1995, birthrate: 14.6 },
-    { year: 2000, birthrate: 14.4 },
-    { year: 2005, birthrate: 14 },
-    { year: 2010, birthrate: 13 },
-    { year: 2015, birthrate: 12.4 }
+    { shoe:8.0, sales: 5363 },
+    { shoe:8.5, sales: 5300 },
+    { shoe:9.0, sales: 9706 },
+    { shoe:9.5, sales: 8685 },
+    { shoe:10.0, sales: 11093 },
+    { shoe:10.5, sales: 8784 },
+    { shoe:11.0, sales: 9251 },
+    { shoe:11.5, sales: 4502 },
+    { shoe:12.0, sales: 7297 },
+    { shoe:13.0, sales: 4602 },
 ];
 
-const yrs = points.map(pts => pts.year);
-const yTicks = [0, 5, 10, 15, 20];
+const Xabsc = points.map(pts => pts.shoe);
+const Yordn = points.map(pts => pts.sales);
 const padding = { top: 20, right: 15, bottom: 20, left: 25 };
 
 let width = 500;
-let height = 200;
+let height = 300;
 
 function formatMobile(tick) {
     return "'" + tick % 100;
 }
 
 $: xScale = scaleLinear()
-    .domain([0, yrs.length])
+    .domain([0, Yordn.length])
     .range([padding.left, width - padding.right]);
 
 $: yScale = scaleLinear()
-    .domain([0, Math.max.apply(null, yTicks)])
+    .domain([0, Math.max.apply(null, Yordn)])
     .range([height - padding.bottom, padding.top]);
 
 $: innerWidth = width - (padding.left + padding.right);
-$: barWidth = innerWidth / yrs.length;
+$: barWidth = innerWidth / Xabsc.length;
 </script>
 
 <style>
@@ -87,7 +91,7 @@ svg {
 <svg>
     <!-- y axis -->
     <g class="axis y-axis" transform="translate(0,{padding.top})">
-        {#each yTicks as tick}
+        {#each Yordn as tick}
             <g class="tick tick-{tick}" transform="translate(0, {yScale(tick) - padding.bottom})">
                 <line x2="100%"></line>
                 <text y="-4">{tick} {tick === 20 ? ' per 1,000 population' : ''}</text>
@@ -99,7 +103,7 @@ svg {
     <g class="axis x-axis">
         {#each points as point, i}
             <g class="tick" transform="translate({xScale(i)},{height})">
-                <text x="{barWidth/2}" y="-4">{width > 380 ? point.year : formatMobile(point.year)}</text>
+                <text x="{barWidth/2}" y="-4">{width > 380 ? point.shoe : formatMobile(point.shoe)}</text>
             </g>
         {/each}
     </g>
@@ -108,9 +112,9 @@ svg {
         {#each points as point, i}
             <rect
                 x="{xScale(i) + 2}"
-                y="{yScale(point.birthrate)}"
+                y="{yScale(point.sales)}"
                 width="{barWidth - 4}"
-                height="{height - padding.bottom - yScale(point.birthrate)}"
+                height="{height - padding.bottom - yScale(point.sales)}"
             ></rect>
         {/each}
     </g>
