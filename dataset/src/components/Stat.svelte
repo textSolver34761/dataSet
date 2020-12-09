@@ -1,22 +1,17 @@
 <script>
-    import ModeleMoins from "../components/ModeleMoins.svelte";
-    import ModelePlus from "../components/ModelePlus.svelte";
-    import EtatPlus from "../components/EtatPlus.svelte";
-    import EtatMoins from "../components/EtatMoins.svelte";
-    import PointurePlus from "../components/PointurePlus.svelte";
-    import PointureMoins from "../components/PointureMoins.svelte";
+    import Modele from "../components/Modele.svelte";
+    import Etat from "../components/Etat.svelte";
+    import Pointure from "../components/PointurePlus.svelte";
   </script>
   
   <style>
       
   </style>
 
-  <ModelePlus  />
+  <Modele />
   <br>
-  <ModeleMoins />
-  <PointurePlus />
   <br>
-  <PointureMoins />
-  <EtatPlus />
+  <Etat />
   <br>
-  <EtatMoins />
+  <br>
+  <Pointure />

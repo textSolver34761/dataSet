@@ -80,7 +80,7 @@ svg {
     opacity: 0.65;
 }
 </style>
-<h1> Graphes selon les modèles : </h1>
+
 <h2> les modèles les plus vendus</h2> <br>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
