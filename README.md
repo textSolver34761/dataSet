@@ -21,8 +21,11 @@ Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br 
 
 Pour executer le programme, l'ouvrir et aller dans le dossier "dataset". <br />
 S'assurer d'avoir installer Nodes ainsi que npm. <br />
-Executer la commande ``` npm run dev ``` 
-
+Executer les commandes : <br />
+```
+npm install
+npm run dev
+```
 ## Fonctionnement technique du programme
 
 **Technologie utilisé**
