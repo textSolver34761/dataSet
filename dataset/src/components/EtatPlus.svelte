@@ -81,7 +81,7 @@ svg {
 }
 </style>
 
-<h2> les modèles les plus vendus</h2> <br>
+<h2> États les plus acheteurs</h2> <br>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
 <svg>

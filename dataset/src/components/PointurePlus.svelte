@@ -80,8 +80,8 @@ svg {
     opacity: 0.65;
 }
 </style>
-
-<h2> les modèles les plus vendus</h2> <br>
+<h1> Graphes selon les tailles de chaussures : </h1>
+<h2> les tailles de chaussures les plus vendus</h2> <br>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
 <svg>
