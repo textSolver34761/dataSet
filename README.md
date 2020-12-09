@@ -31,8 +31,9 @@ Executer la commande ``` npm run dev ```
 **Imports natif à python**
 
 ```python
-import pandas
-import numpy
+import pandas as pd
+import json
+from json.decoder import JSONDecodeError
 ```
 
 **Imports natif à JavaScript **
