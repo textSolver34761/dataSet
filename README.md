@@ -36,7 +36,7 @@ import json
 from json.decoder import JSONDecodeError
 ```
 
-**Imports natif à JavaScript **
+**Imports natif à JavaScript**
 
 ```javascript
 import { scaleLinear } from 'd3-scale'; 
