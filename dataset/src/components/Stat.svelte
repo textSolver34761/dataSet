@@ -38,19 +38,16 @@
     ],
 
     modelMostSold: [
-      { x: "Adidas-Yeezy-Boost-350-V2-Butter", y: 11423 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Beluga-2pt0", y: 10395 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Zebra", y: 10110 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Blue-Tint", y: 9297 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Cream-White", y: 9097 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Sesame", y: 5553 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Static", y: 4983 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Semi-Frozen-Yellow", y: 4854 },
-      {
-        x: "Air-Jordan-1-Retro-High-Off-White-University-Blue",
-        y: 4635,
-      },
-      { x: "Adidas-Yeezy-Boost-350-V2-Static-Reflective", y: 3184 },
+      { x: "Yz Butter", y: 11423 },
+      { x: "Yz Beluga2.0", y: 10395 },
+      { x: "Yz Zebra", y: 10110 },
+      { x: "Yz Blue-Tint", y: 9297 },
+      { x: "Yz CreamWhite", y: 9097 },
+      { x: "Yz Sesame", y: 5553 },
+      { x: "Yz Static", y: 4983 },
+      { x: "Yz SemiFrozen", y: 4854 },
+      { x: "AJ1 OW UniversityBlue", y: 4635 },
+      { x: "Yz Static Reflective", y: 3184 },
     ],
 
     statsLessB: [
@@ -80,16 +77,16 @@
     ],
 
     modelLessSold: [
-      { x: "Nike-Blazer-Mid-Off-White-Wolf-Grey", y: 288 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Core-Black-Copper", y: 225 },
-      { x: "Nike-Air-Max-97-Off-White-Elemental-Rose-Queen", y: 216 },
-      { x: "Adidas-Yeezy-Boost-350-V2-Core-Black-Green", y: 196 },
-      { x: "Adidas-Yeezy-Boost-350-Low-Pirate-Black-2016", y: 122 },
-      { x: "Adidas-Yeezy-Boost-350-Low-Moonrock", y: 100 },
-      { x: "Adidas-Yeezy-Boost-350-Low-Pirate-Black-2015", y: 95 },
-      { x: "Adidas-Yeezy-Boost-350-Low-Oxford-Tan", y: 70 },
-      { x: "Adidas-Yeezy-Boost-350-Low-Turtledove", y: 68 },
-      { x: "Nike-Air-Force-1-Low-Virgil-Abloh-Off-White-AF100", y: 31 },
+      { x: "Blazer OW WolfGrey", y: 288 },
+      { x: "Yz Copper", y: 225 },
+      { x: "AM97 OW Elemental", y: 216 },
+      { x: "Yz Green", y: 196 },
+      { x: "Yz PirateBlack2016", y: 122 },
+      { x: "Yz Moonrock", y: 100 },
+      { x: "Yz PirateBlack2015", y: 95 },
+      { x: "Yz OxfordTan", y: 70 },
+      { x: "Yz Turtledove", y: 68 },
+      { x: "AF1 OW", y: 31 },
     ],
   };
 </script>
