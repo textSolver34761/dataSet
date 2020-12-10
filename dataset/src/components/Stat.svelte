@@ -29,7 +29,7 @@
       { x: "NewYork", y: 16525 },
       { x: "Oregon", y: 7681 },
       { x: "Florida", y: 6376 },
-      { x: "Texas", anount: 5876 },
+      { x: "Texas", y: 5876 },
       { x: "NewJersey", y: 4720 },
       { x: "Illinois", y: 3782 },
       { x: "Pennsylvania", y: 3109 },
